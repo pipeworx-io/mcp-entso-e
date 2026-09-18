@@ -90,3 +90,13 @@ The gateway picks the right tool and fills the arguments automatically.
 ## License
 
 MIT
+
+## No MCP client? Call it over HTTP
+
+```bash
+curl -X POST https://gateway.pipeworx.io/v1/tools/day_ahead_prices \
+  -H 'Content-Type: application/json' \
+  -d '{"area":"10YDE-VE-------2","period_start":"202504010000","period_end":"202504012300"}'
+```
+
+No account needed for the first calls. Inspect any tool: `GET https://gateway.pipeworx.io/v1/tools/day_ahead_prices`. Find one: `POST https://gateway.pipeworx.io/v1/tools/search_packs` with `{"query":"..."}`.
