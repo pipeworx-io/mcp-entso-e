@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-entso-e",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ENTSO-E Transparency Platform MCP",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-1f6bc1d143a7faf8f4010e06ea9badae0dbe1aa9596a6772173bf0c816b50527",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-fc71581bf5130f0f7927670cb941b7c05dbbc42995b321ffc6f879294ba97664",
+    "sourceCommit": "4fa4c64448be06f4a2ee4cee19f756f3558a7cad"
   }
 }
