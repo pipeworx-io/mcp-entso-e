@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-entso-e",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "ENTSO-E Transparency Platform MCP",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "entso-e",
     "gatewaySlug": "entso-e",
-    "sourceHash": "v1-359cdbf355f6247f82542174369c00efef4dbdc1ee402a99028de08fd52bfb9b",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-76c0765ad5df2db03b632128356b4cc08b24fd82a225f34b27d49303ea24e330",
+    "sourceCommit": "d35e32c1ffe988e24d391dedb35666387fd2b3d6"
   }
 }
